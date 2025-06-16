@@ -1,0 +1,8 @@
+globalStorage/**
+History/**
+snippets/**
+sync/**
+workspaceStorage/**
+profiles/*/*
+!profiles/*/keybindings.json
+!profiles/*/settings.json
