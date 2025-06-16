@@ -146,7 +146,7 @@
         "list.scrollDown"
       ]
     },
-    "when": "listFocus && !inputFocus"
+    "when": "inChat && listFocus && !inputFocus"
   },
   {
     "key": "k",
@@ -161,7 +161,7 @@
         "list.scrollUp"
       ]
     },
-    "when": "listFocus && !inputFocus"
+    "when": "inChat && listFocus && !inputFocus"
   },
 
   // ========================================
