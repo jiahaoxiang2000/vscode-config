@@ -127,6 +127,11 @@
     "command": "workbench.view.extensions", // Extensions
     "when": "editorTextFocus"
   },
+  {
+    "key": "ctrl+w e",
+    "command": "workbench.view.explorer", // Explorer view
+    "when": "editorTextFocus"
+  },
 
   // ========================================
   // Chat Navigation - List Scroll Commands Only

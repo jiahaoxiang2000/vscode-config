@@ -17,6 +17,9 @@
     "editor.wordWrap",
     "editor.formatOnSave",
     "editor.mouseWheelZoom",
+    "editor.cursorSmoothCaretAnimation",
+    "editor.smoothScrolling",
+    "editor.cursorBlinking",
 
     // Workbench settings
     "workbench.colorTheme",
@@ -69,9 +72,15 @@
 
   // Editor settings (common across profiles)
   "editor.scrollbar.horizontal": "hidden",
+  "editor.lineNumbers": "relative",
+  "editor.cursorSurroundingLines": 8,
+  "editor.scrollBeyondLastLine": false,
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "editor.mouseWheelZoom": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
 
   // Git settings (common across profiles)
   "git.autofetch": true,
@@ -143,14 +152,10 @@
     "/",
     "]"
   ],
-
   // Remote settings (common across profiles)
   "remote.autoForwardPortsSource": "hybrid",
 
   // Additional Neovim-friendly VS Code settings
-  "editor.lineNumbers": "relative",
-  "editor.cursorSurroundingLines": 8,
-  "editor.scrollBeyondLastLine": false,
   "workbench.list.automaticKeyboardNavigation": false,
 
   // Disable conflicting VS Code shortcuts when using Neovim
