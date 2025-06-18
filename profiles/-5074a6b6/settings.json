@@ -61,11 +61,6 @@
     "*.copilotmd": "vscode.markdown.preview.editor",
     "*.mp4": "vscode.videoPreview"
   },
-  "github.copilot.chat.commitMessageGeneration.instructions": [
-    {
-      "text": "Use conventional commit message format. For example, 'feat: add new feature' or 'fix: bug fix'."
-    }
-  ],
   "terminal.integrated.defaultProfile.linux": "fish",
   "Lingma.cloudModelAutoTriggerGenerateLength": "medium",
   "Lingma.localMachineModel": true,

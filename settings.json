@@ -40,15 +40,14 @@
 
     // Git settings
     "git.autofetch",
-    "git.confirmSync",
-
-    // Chat and AI settings
+    "git.confirmSync", // Chat and AI settings
     "inlineChat.hideOnRequest",
     "inlineChat.enableV2",
     "chat.editor.wordWrap",
     "github.copilot.nextEditSuggestions.enabled",
     "github.copilot.enable",
     "github.copilot.chat.search.semanticTextResults",
+    "github.copilot.chat.commitMessageGeneration.instructions",
 
     // Development settings
     "remote.autoForwardPortsSource",
@@ -97,7 +96,6 @@
   "inlineChat.hideOnRequest": true,
   "inlineChat.enableV2": true,
   "chat.editor.wordWrap": "on",
-
   // GitHub Copilot settings (common across profiles)
   "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.enable": {
@@ -105,6 +103,11 @@
     "plaintext": true
   },
   "github.copilot.chat.search.semanticTextResults": true,
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Use conventional commit message format with emojis. Examples: '✨ feat: add new feature', '🐛 fix: resolve bug', '📚 docs: update documentation', '♻️ refactor: improve code structure', '🎨 style: format code', '🧪 test: add tests', '🔧 chore: update dependencies'."
+    }
+  ],
 
   // vscode-neovim settings (common across profiles) - Enhanced configuration based on vscode-neovim README
   "vscode-neovim.neovimClean": false,
