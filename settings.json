@@ -105,7 +105,13 @@
   "github.copilot.chat.search.semanticTextResults": true,
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-      "text": "Use conventional commit message format with emojis. Examples: '✨ feat: add new feature', '🐛 fix: resolve bug', '📚 docs: update documentation', '♻️ refactor: improve code structure', '🎨 style: format code', '🧪 test: add tests', '🔧 chore: update dependencies'."
+      "text": "Always start commit messages with an appropriate emoji followed by conventional commit format."
+    },
+    {
+      "text": "Use these emoji patterns: ✨ feat:, 🐛 fix:, 📚 docs:, ♻️ refactor:, 🎨 style:, 🧪 test:, 🔧 chore:, 🚀 perf:, 🔒 security:"
+    },
+    {
+      "text": "Examples: '✨ feat: add user authentication', '🐛 fix: resolve memory leak in parser', '📚 doc: update API documentation'"
     }
   ],
 

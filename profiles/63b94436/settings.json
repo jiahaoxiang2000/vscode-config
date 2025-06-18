@@ -40,20 +40,6 @@
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
-  "github.copilot.chat.commitMessageGeneration.instructions": [
-    {
-      "text": "Follow conventional commit message format: <type>(<scope>): <message>"
-    },
-    {
-      "text": "Type can be one of the following: feat, fix, docs, style, refactor, perf, test, chore, revert"
-    },
-    {
-      "text": "Scope is optional and can be anything specifying the location of the commit change"
-    },
-    {
-      "text": "Message should be a short description of the change"
-    }
-  ],
   "breadcrumbs.enabled": false,
   "notebook.stickyScroll.enabled": true,
   "github.copilot.chat.notebook.followCellExecution.enabled": true,
