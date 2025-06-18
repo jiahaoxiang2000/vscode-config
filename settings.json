@@ -6,7 +6,6 @@
     "vscode-neovim.compositeKeys",
     "vscode-neovim.ctrlKeysForInsertMode",
     "vscode-neovim.ctrlKeysForNormalMode",
-    "vscode-neovim.editorLangIdExclusions",
     "vscode-neovim.highlightGroups.highlights",
 
     // Editor settings for Vim
@@ -146,7 +145,7 @@
     "t",
     "u",
     "v",
-    "w",
+    "n",
     "x",
     "z",
     "/",
