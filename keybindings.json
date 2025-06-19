@@ -63,7 +63,7 @@
   },
   {
     "key": "ctrl+w shift+q",
-    "command": "workbench.action.closeEditorsInGroup",
+    "command": "workbench.action.closeOtherEditors",
     "when": "editorTextFocus"
   },
 
