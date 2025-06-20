@@ -44,6 +44,7 @@
     "inlineChat.hideOnRequest",
     "inlineChat.enableV2",
     "chat.editor.wordWrap",
+    "chat.tools.autoApprove",
     "github.copilot.nextEditSuggestions.enabled",
     "github.copilot.enable",
     "github.copilot.chat.search.semanticTextResults",
@@ -96,6 +97,7 @@
   "inlineChat.hideOnRequest": true,
   "inlineChat.enableV2": true,
   "chat.editor.wordWrap": "on",
+  "chat.tools.autoApprove": true,
   // GitHub Copilot settings (common across profiles)
   "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.enable": {
@@ -112,6 +114,9 @@
     },
     {
       "text": "Examples: '✨ feat: add user authentication', '🐛 fix: resolve memory leak in parser', '📚 doc: update API documentation'"
+    },
+    {
+      "text": "Keep commit messages as concise as possible."
     }
   ],
 

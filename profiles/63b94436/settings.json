@@ -43,5 +43,6 @@
   "breadcrumbs.enabled": false,
   "notebook.stickyScroll.enabled": true,
   "github.copilot.chat.notebook.followCellExecution.enabled": true,
-  "python.analysis.typeCheckingMode": "basic"
+  "python.analysis.typeCheckingMode": "basic",
+  "explorer.confirmDelete": false
 }

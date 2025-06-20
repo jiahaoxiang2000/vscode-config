@@ -63,8 +63,8 @@
   },
   {
     "key": "ctrl+w shift+q",
-    "command": "workbench.action.closeOtherEditors",
-    "when": "editorTextFocus"
+    "command": "workbench.action.closeOtherEditors"
+    // "when": "editorTextFocus"
   },
 
   // Resize Editor Groups (Vim-style)

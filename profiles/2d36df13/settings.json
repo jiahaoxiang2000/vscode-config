@@ -5,7 +5,9 @@
     "markdown": true,
     "scminput": false
   },
-  "cSpell.userWords": ["datastruct"],
+  "cSpell.userWords": [
+    "datastruct"
+  ],
   "explorer.fileNesting.patterns": {
     "Cargo.toml": "Cargo.lock",
     "*.sqlite": "${capture}.${extname}-*",
@@ -17,5 +19,6 @@
   },
   "editor.fontFamily": "'Maple Mono NF CN', Monaco, 'Courier New', monospace",
   "editor.fontSize": 16,
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false
 }
