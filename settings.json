@@ -27,7 +27,6 @@
     "workbench.navigationControl.enabled",
     "workbench.list.automaticKeyboardNavigation",
     "window.commandCenter",
-    "window.zoomLevel",
 
     // System and compatibility
     "keyboard.dispatch",
@@ -91,7 +90,6 @@
   "workbench.panel.showLabels": false,
   "workbench.navigationControl.enabled": false,
   "window.commandCenter": false,
-  "window.zoomLevel": 3,
 
   // Chat settings (common across profiles)
   "inlineChat.hideOnRequest": true,
