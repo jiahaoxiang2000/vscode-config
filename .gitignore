@@ -6,3 +6,4 @@ workspaceStorage/**
 profiles/*/*
 !profiles/*/keybindings.json
 !profiles/*/settings.json
+!profiles/*/prompts
