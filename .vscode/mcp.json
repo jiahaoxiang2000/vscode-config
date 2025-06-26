@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "all-in-mcp": {
+      "command": "uv",
+      "args": ["run", "all-in-mcp"]
+    }
+  }
+}

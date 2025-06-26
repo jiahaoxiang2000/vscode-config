@@ -150,6 +150,5 @@
   "workbench.editorLargeFileConfirmation": 50,
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "material-icon-theme",
-  "chat.tools.autoApprove": true,
   "window.zoomLevel": 5
 }
