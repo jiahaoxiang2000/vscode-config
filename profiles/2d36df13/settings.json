@@ -20,5 +20,6 @@
   "editor.fontFamily": "'Maple Mono NF CN', Monaco, 'Courier New', monospace",
   "editor.fontSize": 16,
   "files.autoSave": "afterDelay",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 5
 }
