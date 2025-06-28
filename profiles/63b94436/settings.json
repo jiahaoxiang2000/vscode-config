@@ -45,5 +45,8 @@
   "github.copilot.chat.notebook.followCellExecution.enabled": true,
   "python.analysis.typeCheckingMode": "basic",
   "explorer.confirmDelete": false,
-  "window.zoomLevel": 4.5
+  "window.zoomLevel": 5,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
