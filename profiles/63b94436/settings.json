@@ -18,7 +18,6 @@
     "default": "right",
     "jupyter-notebook": "right"
   },
-  "python.languageServer": "Pylance",
   "workbench.editorLargeFileConfirmation": 40,
   "markdown.preview.fontSize": 20,
   "redhat.telemetry.enabled": true,
@@ -48,5 +47,6 @@
   "window.zoomLevel": 5,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "terminal.integrated.defaultProfile.linux": "fish"
 }

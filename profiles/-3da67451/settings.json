@@ -1,5 +1,5 @@
 {
-  "editor.fontSize": 22,
+  "editor.fontSize": 18,
   "cmake.pinnedCommands": [
     "workbench.action.tasks.configureTaskRunner",
     "workbench.action.tasks.runTask"
