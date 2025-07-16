@@ -33,6 +33,11 @@
     "security.workspace.trust.untrustedFiles",
     "security.promptForLocalFileProtocolHandling",
 
+    // Window settings
+    "window.titleBarStyle",
+    "window.menuBarVisibility",
+    "window.customTitleBarVisibility",
+
     // Terminal settings
     "terminal.integrated.inheritEnv",
     "terminal.integrated.fontSize",
@@ -85,7 +90,7 @@
   "git.confirmSync": false,
 
   // Workbench settings (common across profiles)
-  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "workbench.colorTheme": "GitHub Dark High Contrast",
   "workbench.activityBar.location": "top",
   "workbench.panel.showLabels": false,
   "workbench.navigationControl.enabled": false,
@@ -168,5 +173,10 @@
   "workbench.list.automaticKeyboardNavigation": false,
 
   // Disable conflicting VS Code shortcuts when using Neovim
-  "keyboard.dispatch": "keyCode"
+  "keyboard.dispatch": "keyCode",
+
+  // window top bar settings
+  "window.titleBarStyle": "native",
+  "window.menuBarVisibility": "toggle",
+  "window.customTitleBarVisibility": "never"
 }
