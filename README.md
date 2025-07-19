@@ -24,12 +24,6 @@ This configuration transforms VS Code into a powerful Vim-centric development en
 
 ## ⚙️ Settings Overview
 
-### 🛠️ Build Tools
-
-- **Makefile**: Auto-configure on open
-
-### ⌨️ Custom Keybindings
-
 ### 🧭 Navigation History (Vim-Compatible)
 
 The keybinding configuration focuses on essential navigation while preserving comprehensive Vim functionality:
@@ -55,10 +49,13 @@ Complete Vim-style window and pane management using `Ctrl+W` prefix (traditional
 
 #### **Sidebar & Panel Navigation:**
 
-| Keybinding | Command        | Description               |
-| ---------- | -------------- | ------------------------- |
-| `Ctrl+W E` | Focus Explorer | Open/focus file explorer  |
-| `Ctrl+W G` | Focus Git/SCM  | Focus source control view |
+| Keybinding | Command          | Description               |
+| ---------- | ---------------- | ------------------------- |
+| `Ctrl+W E` | Focus Explorer   | Open/focus file explorer  |
+| `Ctrl+W G` | Focus Git/SCM    | Focus source control view |
+| `Ctrl+W D` | Focus Debug      | Focus debug view          |
+| `Ctrl+W X` | Focus Extensions | Focus extensions view     |
+| `Ctrl+W P` | Focus Problems   | Focus problems panel      |
 
 #### **Resize Editor Groups:**
 
@@ -75,6 +72,34 @@ Complete Vim-style window and pane management using `Ctrl+W` prefix (traditional
 | -------------------- | ----------------------------- | ------------------------- |
 | `Ctrl+W Shift+Right` | Move Editor to Next Group     | Move current editor right |
 | `Ctrl+W Shift+Left`  | Move Editor to Previous Group | Move current editor left  |
+
+#### **Editor Management:**
+
+| Keybinding       | Command                  | Description                |
+| ---------------- | ------------------------ | -------------------------- |
+| `Ctrl+W S`       | Split Editor Down        | Split current editor down  |
+| `Ctrl+W V`       | Split Editor Right       | Split current editor right |
+| `Ctrl+W Q`       | Close Active Editor      | Close current editor       |
+| `Ctrl+W Shift+Q` | Close Other Editors      | Close all other editors    |
+| `Ctrl+W N`       | Next Editor in Group     | Switch to next editor tab  |
+| `Ctrl+W Shift+N` | Previous Editor in Group | Switch to previous editor  |
+
+#### **Chat Interface Navigation:**
+
+| Keybinding | Command          | Description                        |
+| ---------- | ---------------- | ---------------------------------- |
+| `J`        | Scroll Down (6x) | Scroll down in chat history (fast) |
+| `K`        | Scroll Up (6x)   | Scroll up in chat history (fast)   |
+| `Tab`      | Toggle Focus     | Switch between input and history   |
+
+#### **Neovim Treewalker Integration:**
+
+| Keybinding     | Command               | Description                |
+| -------------- | --------------------- | -------------------------- |
+| `Ctrl+Shift+K` | Treewalker Swap Up    | Swap with element above    |
+| `Ctrl+Shift+J` | Treewalker Swap Down  | Swap with element below    |
+| `Ctrl+Shift+H` | Treewalker Swap Left  | Swap with element to left  |
+| `Ctrl+Shift+L` | Treewalker Swap Right | Swap with element to right |
 
 ### 🎯 **Essential Vim Commands in VS Code**
 
@@ -123,6 +148,30 @@ gv                  " Reselect last visual selection
 :%s/old/new/g       " Global replace
 ```
 
-## 📚 Additional Resources with the Plugins on Neovim
+## 🔧 Neovim Integration
 
-Here we integrate the _Neovim on VS Code_ plugin to provide a more Vim-like experience with additional features the more config see [here](https://github.com/jiahaoxiang2000/nvim-config/tree/lazy/lua/vscode-config)
+### vscode-neovim Configuration
+
+This setup uses the `vscode-neovim` extension for a more authentic Vim experience:
+
+- **Clean Mode**: Disabled (`neovimClean: false`) for full Neovim features
+- **Control Key Passthrough**: Extensive Ctrl key mappings for both insert and normal modes
+- **Extension Affinity**: Isolated to worker process 1 for optimal performance
+- **Composite Keys**: Ready for custom escape sequences (currently disabled)
+
+### Control Key Mappings
+
+**Insert Mode**: `a`, `d`, `h`, `j`, `m`, `o`, `r`, `t`, `u`, `w`
+**Normal Mode**: `a`, `d`, `f`, `h`, `i`, `j`, `k`, `l`, `m`, `o`, `r`, `t`, `u`, `v`, `n`, `x`, `/`, `]`
+
+### Profile-Based Configuration
+
+Settings are configured to apply across all VS Code profiles, ensuring consistent behavior:
+
+- Core Neovim settings synchronized across profiles
+- Editor preferences maintained globally
+- Keybinding consistency across different workspace types
+
+## 📚 Additional Resources
+
+For advanced Neovim configuration examples, see the [nvim-config repository](https://github.com/jiahaoxiang2000/nvim-config/tree/lazy/lua/vscode-config)
