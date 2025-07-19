@@ -184,5 +184,33 @@
     "key": "tab",
     "command": "list.focusAnyLast",
     "when": "inChat && inChatInput"
+  },
+
+  // ========================================
+  // Treewalker Swap Commands (Neovim)
+  // ========================================
+  {
+    "command": "vscode-neovim.send",
+    "key": "ctrl+shift+k",
+    "when": "editorTextFocus && neovim.mode != insert",
+    "args": "<C-S-k>"
+  },
+  {
+    "command": "vscode-neovim.send",
+    "key": "ctrl+shift+j",
+    "when": "editorTextFocus && neovim.mode != insert",
+    "args": "<C-S-j>"
+  },
+  {
+    "command": "vscode-neovim.send",
+    "key": "ctrl+shift+h",
+    "when": "editorTextFocus && neovim.mode != insert",
+    "args": "<C-S-h>"
+  },
+  {
+    "command": "vscode-neovim.send",
+    "key": "ctrl+shift+l",
+    "when": "editorTextFocus && neovim.mode != insert",
+    "args": "<C-S-l>"
   }
 ]
