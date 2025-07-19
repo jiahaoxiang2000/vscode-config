@@ -18,5 +18,6 @@
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
-  "vim.useCtrlKeys": false
+  "vim.useCtrlKeys": false,
+  "extensions.ignoreRecommendations": true
 }
