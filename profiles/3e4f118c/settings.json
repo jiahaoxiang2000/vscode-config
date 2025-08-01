@@ -151,6 +151,5 @@
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "material-icon-theme",
   "gitlens.mode.active": "zen",
-  "vscode-neovim.useWSL": true,
-  "window.zoomLevel": 1.2
+  "vscode-neovim.useWSL": true
 }

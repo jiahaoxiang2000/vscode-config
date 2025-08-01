@@ -178,6 +178,5 @@
   // window top bar settings
   "window.titleBarStyle": "custom",
   "window.menuBarVisibility": "visible",
-  "window.customTitleBarVisibility": "never",
-  "http.proxy": "http://127.0.0.1:1080"
+  "window.customTitleBarVisibility": "never"
 }
