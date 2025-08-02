@@ -1,14 +1,11 @@
 {
   // Settings that apply to all profiles
   "workbench.settings.applyToAllProfiles": [
-    // Neovim core settings
     "vscode-neovim.neovimClean",
     "vscode-neovim.compositeKeys",
     "vscode-neovim.ctrlKeysForInsertMode",
     "vscode-neovim.ctrlKeysForNormalMode",
     "vscode-neovim.highlightGroups.highlights",
-
-    // Editor settings for Vim
     "editor.scrollbar.horizontal",
     "editor.lineNumbers",
     "editor.cursorSurroundingLines",
@@ -19,32 +16,22 @@
     "editor.cursorSmoothCaretAnimation",
     "editor.smoothScrolling",
     "editor.cursorBlinking",
-
-    // Workbench settings
     "workbench.colorTheme",
     "workbench.activityBar.location",
     "workbench.panel.showLabels",
     "workbench.navigationControl.enabled",
     "workbench.list.automaticKeyboardNavigation",
     "window.commandCenter",
-
-    // System and compatibility
     "keyboard.dispatch",
     "security.workspace.trust.untrustedFiles",
     "security.promptForLocalFileProtocolHandling",
-
-    // Window settings
     "window.titleBarStyle",
     "window.menuBarVisibility",
     "window.customTitleBarVisibility",
-
-    // Terminal settings
     "terminal.integrated.inheritEnv",
     "terminal.integrated.fontSize",
-
-    // Git settings
     "git.autofetch",
-    "git.confirmSync", // Chat and AI settings
+    "git.confirmSync",
     "inlineChat.hideOnRequest",
     "inlineChat.enableV2",
     "chat.editor.wordWrap",
@@ -53,26 +40,21 @@
     "github.copilot.enable",
     "github.copilot.chat.search.semanticTextResults",
     "github.copilot.chat.commitMessageGeneration.instructions",
-
-    // Development settings
     "remote.autoForwardPortsSource",
     "makefile.configureOnOpen",
-    "extensions.experimental.affinity"
+    "extensions.experimental.affinity",
+    "vscode-neovim.useWSL"
   ],
-
   // improved performance settings
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
-
   // Security settings
   "security.workspace.trust.untrustedFiles": "open",
   "security.promptForLocalFileProtocolHandling": false,
-
   // Terminal settings
   "terminal.integrated.inheritEnv": false,
   "terminal.integrated.fontSize": 16,
-
   // Editor settings (common across profiles)
   "editor.scrollbar.horizontal": "hidden",
   "editor.lineNumbers": "relative",
@@ -84,18 +66,15 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
   "editor.cursorBlinking": "smooth",
-
   // Git settings (common across profiles)
   "git.autofetch": true,
   "git.confirmSync": false,
-
   // Workbench settings (common across profiles)
   "workbench.colorTheme": "GitHub Dark High Contrast",
   "workbench.activityBar.location": "top",
   "workbench.panel.showLabels": false,
   "workbench.navigationControl.enabled": false,
   "window.commandCenter": false,
-
   // Chat settings (common across profiles)
   "inlineChat.hideOnRequest": true,
   "inlineChat.enableV2": true,
@@ -122,17 +101,14 @@
       "text": "Keep commit messages as concise as possible."
     }
   ],
-
   // vscode-neovim settings (common across profiles) - Enhanced configuration based on vscode-neovim README
   "vscode-neovim.neovimClean": false,
-
   // Composite escape keys for vscode-neovim
   "vscode-neovim.compositeKeys": {
     // "jj": {
     //   "command": "vscode-neovim.escape"
     // }
   },
-
   // Control key passthrough settings
   "vscode-neovim.ctrlKeysForInsertMode": [
     "a",
@@ -168,15 +144,13 @@
   ],
   // Remote settings (common across profiles)
   "remote.autoForwardPortsSource": "hybrid",
-
   // Additional Neovim-friendly VS Code settings
   "workbench.list.automaticKeyboardNavigation": false,
-
   // Disable conflicting VS Code shortcuts when using Neovim
   "keyboard.dispatch": "keyCode",
-
   // window top bar settings
   "window.titleBarStyle": "custom",
   "window.menuBarVisibility": "visible",
-  "window.customTitleBarVisibility": "never"
+  "window.customTitleBarVisibility": "never",
+  "vscode-neovim.useWSL": true
 }

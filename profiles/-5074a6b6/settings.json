@@ -5,7 +5,10 @@
   },
   "files.autoSave": "afterDelay",
   "jupyter.themeMatplotlibPlots": true,
-  "jupyter.widgetScriptSources": ["unpkg.com", "jsdelivr.com"],
+  "jupyter.widgetScriptSources": [
+    "unpkg.com",
+    "jsdelivr.com"
+  ],
   "files.exclude": {
     "**/.csv": true,
     "**/.parquet": true,
@@ -28,7 +31,9 @@
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terminal.integrated.commandsToSkipShell": ["matlab.interrupt"],
+  "terminal.integrated.commandsToSkipShell": [
+    "matlab.interrupt"
+  ],
   "python.analysis.typeCheckingMode": "basic",
   "editor.fontFamily": "'Martian Mono', Consolas, 'Courier New', monospace",
   "explorer.fileNesting.patterns": {
@@ -45,11 +50,6 @@
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*"
   },
-  "github.copilot.chat.codeGeneration.instructions": [
-    {
-      "file": ".copilot-instructions.md"
-    }
-  ],
   "terminal.integrated.suggest.enabled": true,
   "verilog.linting.linter": "iverilog",
   "editor.lineNumbers": "relative",
@@ -68,5 +68,6 @@
   "diffEditor.ignoreTrimWhitespace": true,
   "chat.agent.enabled": true,
   "editor.unicodeHighlight.ambiguousCharacters": false,
-  "github.copilot.chat.agent.thinkingTool": true
+  "github.copilot.chat.agent.thinkingTool": true,
+  "vscode-neovim.useWSL": true
 }
