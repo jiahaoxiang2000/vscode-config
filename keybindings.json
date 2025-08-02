@@ -212,15 +212,5 @@
     "key": "ctrl+shift+l",
     "when": "editorTextFocus && neovim.mode != insert",
     "args": "<C-S-l>"
-  },
-  {
-    "key": "ctrl+capslock",
-    "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
-    "key": "ctrl+`",
-    "command": "-workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
   }
 ]
