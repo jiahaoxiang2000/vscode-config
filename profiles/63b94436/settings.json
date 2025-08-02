@@ -18,6 +18,7 @@
     "default": "right",
     "jupyter-notebook": "right"
   },
+  "python.languageServer": "Pylance",
   "workbench.editorLargeFileConfirmation": 40,
   "markdown.preview.fontSize": 20,
   "redhat.telemetry.enabled": true,

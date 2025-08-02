@@ -50,6 +50,11 @@
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*"
   },
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "file": ".copilot-instructions.md"
+    }
+  ],
   "terminal.integrated.suggest.enabled": true,
   "verilog.linting.linter": "iverilog",
   "editor.lineNumbers": "relative",
