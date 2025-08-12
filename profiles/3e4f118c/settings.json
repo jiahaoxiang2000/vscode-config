@@ -28,7 +28,6 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
   "editor.accessibilitySupport": "off",
-  "editor.fontFamily": "'JetBrains Mono Nerd Font', 'Martian Mono', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 18,
   "editor.glyphMargin": false,
@@ -152,5 +151,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "gitlens.mode.active": "zen",
   "vscode-neovim.useWSL": true,
-  "chat.tools.autoApprove": true
+  "chat.tools.autoApprove": true,
+  "chat.todoListTool.enabled": true
 }
