@@ -149,8 +149,7 @@
   // Disable conflicting VS Code shortcuts when using Neovim
   "keyboard.dispatch": "keyCode",
   // window top bar settings
-  "window.titleBarStyle": "custom",
-  "window.menuBarVisibility": "visible",
-  "window.customTitleBarVisibility": "never",
-  "vscode-neovim.useWSL": true
+  "window.titleBarStyle": "native",
+  "window.menuBarVisibility": "hidden",
+  "window.customTitleBarVisibility": "never"
 }
