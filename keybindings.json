@@ -212,5 +212,13 @@
     "key": "ctrl+shift+l",
     "when": "editorTextFocus && neovim.mode != insert",
     "args": "<C-S-l>"
-  }
+},
+{
+    "key": "shift+enter",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+        "text": "\\\r\n"
+    },
+    "when": "terminalFocus"
+}
 ]
