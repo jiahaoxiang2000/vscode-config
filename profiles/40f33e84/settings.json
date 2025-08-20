@@ -1,0 +1,8 @@
+{
+    "godotTools.lsp.headless": true,
+    "editor.fontSize": 18,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "onFocusChange"
+}
