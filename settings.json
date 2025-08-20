@@ -61,7 +61,6 @@
   "editor.cursorSurroundingLines": 8,
   "editor.scrollBeyondLastLine": false,
   "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
   "editor.mouseWheelZoom": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
@@ -151,5 +150,7 @@
   // window top bar settings
   "window.titleBarStyle": "native",
   "window.menuBarVisibility": "hidden",
-  "window.customTitleBarVisibility": "never"
+  "window.customTitleBarVisibility": "never",
+  "window.newWindowProfile": null,
+  "editor.formatOnSave": true
 }
