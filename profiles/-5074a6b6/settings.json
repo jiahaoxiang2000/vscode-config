@@ -5,10 +5,7 @@
   },
   "files.autoSave": "afterDelay",
   "jupyter.themeMatplotlibPlots": true,
-  "jupyter.widgetScriptSources": [
-    "unpkg.com",
-    "jsdelivr.com"
-  ],
+  "jupyter.widgetScriptSources": ["unpkg.com", "jsdelivr.com"],
   "files.exclude": {
     "**/.csv": true,
     "**/.parquet": true,
@@ -31,11 +28,8 @@
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terminal.integrated.commandsToSkipShell": [
-    "matlab.interrupt"
-  ],
+  "terminal.integrated.commandsToSkipShell": ["matlab.interrupt"],
   "python.analysis.typeCheckingMode": "basic",
-  "editor.fontFamily": "'Martian Mono', Consolas, 'Courier New', monospace",
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
     "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
@@ -50,11 +44,6 @@
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*"
   },
-  "github.copilot.chat.codeGeneration.instructions": [
-    {
-      "file": ".copilot-instructions.md"
-    }
-  ],
   "terminal.integrated.suggest.enabled": true,
   "verilog.linting.linter": "iverilog",
   "editor.lineNumbers": "relative",
