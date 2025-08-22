@@ -16,7 +16,7 @@
   "notebook.output.scrolling": true,
   "notebook.cellToolbarLocation": {
     "default": "right",
-    "jupyter-notebook": "right"
+    "jupyter-notebook": "right" 
   },
   "python.languageServer": "Pylance",
   "workbench.editorLargeFileConfirmation": 40,
