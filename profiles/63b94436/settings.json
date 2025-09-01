@@ -30,7 +30,6 @@
     "diffEditor.ignoreTrimWhitespace": false
   },
   "cSpell.userWords": ["Jiahao", "Xiang"],
-  "editor.fontFamily": "'Martian Mono', Consolas, 'Courier New', monospace",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

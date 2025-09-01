@@ -152,5 +152,6 @@
   "gitlens.mode.active": "zen",
   "vscode-neovim.useWSL": true,
   "chat.tools.autoApprove": true,
-  "chat.todoListTool.enabled": true
+  "chat.todoListTool.enabled": true,
+  "python.defaultInterpreterPath": "/bin/python"
 }

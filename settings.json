@@ -1,11 +1,13 @@
 {
   // Settings that apply to all profiles
   "workbench.settings.applyToAllProfiles": [
+    // Neovim core settings
     "vscode-neovim.neovimClean",
     "vscode-neovim.compositeKeys",
     "vscode-neovim.ctrlKeysForInsertMode",
     "vscode-neovim.ctrlKeysForNormalMode",
     "vscode-neovim.highlightGroups.highlights",
+    // Editor settings for Vim
     "editor.scrollbar.horizontal",
     "editor.lineNumbers",
     "editor.cursorSurroundingLines",
@@ -16,12 +18,14 @@
     "editor.cursorSmoothCaretAnimation",
     "editor.smoothScrolling",
     "editor.cursorBlinking",
+    // Workbench settings
     "workbench.colorTheme",
     "workbench.activityBar.location",
     "workbench.panel.showLabels",
     "workbench.navigationControl.enabled",
     "workbench.list.automaticKeyboardNavigation",
     "window.commandCenter",
+    // System and compatibility
     "keyboard.dispatch",
     "security.workspace.trust.untrustedFiles",
     "security.promptForLocalFileProtocolHandling",
@@ -61,6 +65,7 @@
   "editor.cursorSurroundingLines": 8,
   "editor.scrollBeyondLastLine": false,
   "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
   "editor.mouseWheelZoom": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
