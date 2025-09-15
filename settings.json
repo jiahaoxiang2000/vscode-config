@@ -1,13 +1,11 @@
 {
   // Settings that apply to all profiles
   "workbench.settings.applyToAllProfiles": [
-    // Neovim core settings
     "vscode-neovim.neovimClean",
     "vscode-neovim.compositeKeys",
     "vscode-neovim.ctrlKeysForInsertMode",
     "vscode-neovim.ctrlKeysForNormalMode",
     "vscode-neovim.highlightGroups.highlights",
-    // Editor settings for Vim
     "editor.scrollbar.horizontal",
     "editor.lineNumbers",
     "editor.cursorSurroundingLines",
@@ -18,14 +16,12 @@
     "editor.cursorSmoothCaretAnimation",
     "editor.smoothScrolling",
     "editor.cursorBlinking",
-    // Workbench settings
     "workbench.colorTheme",
     "workbench.activityBar.location",
     "workbench.panel.showLabels",
     "workbench.navigationControl.enabled",
     "workbench.list.automaticKeyboardNavigation",
     "window.commandCenter",
-    // System and compatibility
     "keyboard.dispatch",
     "security.workspace.trust.untrustedFiles",
     "security.promptForLocalFileProtocolHandling",
@@ -47,7 +43,8 @@
     "remote.autoForwardPortsSource",
     "makefile.configureOnOpen",
     "extensions.experimental.affinity",
-    "vscode-neovim.useWSL"
+    "vscode-neovim.useWSL",
+    "workbench.editor.showTabIndex"
   ],
   // improved performance settings
   "extensions.experimental.affinity": {
@@ -157,5 +154,6 @@
   "window.menuBarVisibility": "hidden",
   "window.customTitleBarVisibility": "never",
   "window.newWindowProfile": null,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "workbench.editor.showTabIndex": true
 }
