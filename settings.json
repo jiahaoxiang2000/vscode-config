@@ -44,7 +44,8 @@
     "makefile.configureOnOpen",
     "extensions.experimental.affinity",
     "vscode-neovim.useWSL",
-    "workbench.editor.showTabIndex"
+    "workbench.editor.showTabIndex",
+    "window.zoomLevel"
   ],
   // improved performance settings
   "extensions.experimental.affinity": {
@@ -154,6 +155,6 @@
   "window.menuBarVisibility": "hidden",
   "window.customTitleBarVisibility": "never",
   "window.newWindowProfile": null,
-  "editor.formatOnSave": true,
-  "workbench.editor.showTabIndex": true
+  "workbench.editor.showTabIndex": true,
+  "window.zoomLevel": 1.1
 }
