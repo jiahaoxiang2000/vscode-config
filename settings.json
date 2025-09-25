@@ -156,5 +156,5 @@
   "window.customTitleBarVisibility": "never",
   "window.newWindowProfile": null,
   "workbench.editor.showTabIndex": true,
-  "window.zoomLevel": 1.1
+  "window.zoomLevel": 5
 }
