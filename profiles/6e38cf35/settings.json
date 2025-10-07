@@ -19,7 +19,7 @@
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "files.associations": {

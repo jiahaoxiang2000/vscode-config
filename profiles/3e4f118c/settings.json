@@ -153,7 +153,5 @@
   "vscode-neovim.useWSL": true,
   "chat.tools.autoApprove": true,
   "chat.todoListTool.enabled": true,
-  "python.defaultInterpreterPath": "/bin/python",
-  "workbench.editor.showTabIndex": true,
-  "window.zoomLevel": 1.1
+  "workbench.editor.showTabIndex": true
 }
